@@ -1,0 +1,39 @@
+<html>
+
+<body style="background-color:#00FF00;">
+	<header> Quiz </header>
+<img src="doggy.jpg" width=500 height = 250>
+	<form name = "quizQ1">
+
+<b>Question 1: In which country was the first Table Tennis patent filed?</b><br> <br>
+
+<input type = "radio" name = "rad1" onclick = "getAnswer('a')"> United Kingdom <br>
+<input type = "radio" name = "rad1" onclick = "getAnswer('b')"> United States <br>
+<input type = "radio" name = "rad1" onclick = "getAnswer('c')"> France <br>
+<input type = "radio" name = "rad1" onclick = "getAnswer('d')"> Turkey <br><br><br>
+
+<b>Question 2: Which is the fastest animal on land?</b><br> <br>
+
+<input type = "radio" name = "rad2" onclick = "getAnswer('Cat')"> Cat <br>
+<input type = "radio" name = "rad2" onclick = "getAnswer('Dog')"> Dog <br>
+<input type = "radio" name = "rad2" onclick = "getAnswer('Donkey')"> Donkey <br>
+<input type = "radio" name = "rad2" onclick = "getAnswer('Cheetah')"> Cheetah <br><br><br>
+</form>
+
+<script type = "text/javascript">
+
+function getAnswer(input) {
+if (input == "a") {alert ("Well done! The first Table Tennis Patent was issued in England on the 15th of July 1890.")}
+else  if (input == "Cheetah") {alert ("Well done! Cheetah is the fastest animal on land.")}
+else {alert ("No that's incorrect, please try again...")}
+}
+
+
+</script>
+<button onclick="location.href='index1.html'">
+     Welcome</button>
+  
+	
+</body>
+
+</html>
